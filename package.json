@@ -1,0 +1,33 @@
+{
+  "name": "data-vis",
+  "version": "1.0.0",
+  "description": "data visualization using vanilla js and webpack and svgs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "webpack",
+    "webpack": "webpack -w --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasESchneider/ChartSite.git"
+  },
+  "author": "Nicolas Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasESchneider/ChartSite/issues"
+  },
+  "homepage": "https://github.com/NicolasESchneider/ChartSite#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
